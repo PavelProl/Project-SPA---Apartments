@@ -1,6 +1,6 @@
 # Single Page Application (JavaScript)
 
-In this application, you can choose an apartment according to the filter parameters and send an bid.
+In this application, you can choose an apartment according to the filter parameters and send a bid.
 
 ## What is done:
 _MVC and Component Approach_
