@@ -1,14 +1,16 @@
-# SPA Приложение по рассчету стоимости квартир (JavaScript)
+# Single Page Application (JavaScript)
 
-## Что сделано:
-_MVC и компонентный подход_
+In this application, you can choose an apartment according to the filter parameters and send an bid.
 
-* Роутер (в зависимости от запроса будет показывать компонент с нужной "страницей")
+## What is done:
+_MVC and Component Approach_
 
-* Рендер Фильтра с данными с сервера (fetch)
+* Router: depending on the request, it will show the component with the required "page"
 
-* Рендер Карточек (по умолчанию при загрузке страницы, а также после применения фильтра)
+* Render a Filter with data from the server (fetch)
 
-* Рендер Компонента с отдельным объектом (отдельная квартира), вызов на нем Модального окна с созданием заявки
+* Render Cards (by default on page load, as well as after applying a filter)
 
-* Компонент Избранное: реализовано добавление карточек с квартирами в избранное (запись данных в localStorage)
+* Render a Component with a separate apartment, call the Modal window on it and create an order
+
+* "Favorites" component: implemented adding cards with apartments to favorites (writing data to localStorage)
