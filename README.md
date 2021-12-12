@@ -1,16 +1,16 @@
-# Single Page Application (JavaScript)
+# SPA "Square meter" (JavaScript)
 
 In this application, you can choose an apartment according to the filter parameters and send a bid.
 
 ## What is done:
 _MVC and Component Approach_
 
-* Router: depending on the request, it will show the component with the required "page"
+* Router: depending on the request, it will show the component with the desired "page"
 
-* Render a Filter with data from the server (fetch)
+* Rendering a filter with data from the server (fetch request)
 
-* Render Cards (by default on page load, as well as after applying a filter)
+* Rendering cards (by default on page load, and also after applying a filter)
 
-* Render a Component with a separate apartment, call the Modal window on it and create an order
+* Rendering a Component with a separate apartment, calling a modal window on it and creating an order
 
-* "Favorites" component: implemented adding cards with apartments to favorites (writing data to localStorage)
+* Component "Favorites": implemented adding cards with apartments to favorites (writing data to localStorage)
